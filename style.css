@@ -7,22 +7,36 @@ body {
     padding: 0;
 }
 
+h2 {
+    font-size: 3.889vh;
+}
+
+p {
+    font-size: 2.667vh;
+}
+
 /* Nav */
 .topNav {
     display: flex;
-    justify-content:space-between;
+    margin: 3vh 4vw;
+    justify-content: space-between;
 }
 
 .topNav a {
     display: flex;
     align-items: center;
     text-decoration: none;
+    color: #000000;
 }
  
+.topNav p {
+    margin: 0;
+}
+
 .linkCont {
     display: flex;
-    justify-content: space-between;
-    width: 10vw;
+    gap: 2vw;
+    font-size: 2.667vh;
 }  
 
 /* Index page */
@@ -30,6 +44,7 @@ body {
 #mainContent {
     display: flex;
     flex-direction: column;
+    height: 100vh ;
     background-image: linear-gradient( to top right, #8CFFD1, #FFFFFF);
 }
 
@@ -58,37 +73,219 @@ body {
 }
 
 #textCont h3 {
-    margin:0;
+    margin: 0;
     font-size: 40px;
 }
 
 #textCont p {
     width: 45vw;
     margin: 0;
-    font-size: 24px;
+    font-size: 2.667vh;
 }
 
-/* Learn more scroll */
+ /* Learn more scroll */
  #learnDown {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    margin-bottom: 3vh;
+    color: #000000;
  }
+
+ #learnDown p {
+    margin: 0px;
+    font-size: 2vh;
+ }
+ 
 
  /* Index body */
  #contentContainer {
     display: flex;
     flex-direction: column;
+    background-image: radial-gradient(circle at center left, #8CFFD1 ,#ffffff);
+ }
+
+ /* About section */
+ #aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    gap: 10vw;
  }
 
  #aboutContent {
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    padding: 2vh 1vw;
+    width: 29.167vw;
+    height: 43.333vh;
  }
 
  #aboutsidePic {
-    display: flex;
     width: 38.542vw;
  }
+
+
+ /* Growth Story */
+ #growthContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    margin: 15vh 1vw;
+    padding: 2vh 1vw;
+ }
+
+
+ /* 5 year plan */
+ #yearContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    margin: 0vh 1vw;
+    padding: 2vh 1vw;
+ }
+
+
+
+ /* Contact */
+ #contactContainer {
+    display: flex;
+    background-color: #ffffff;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    margin: 15vh 1vw;
+    padding: 2vh 1vw;
+ }
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 2.5vw;
+}
+
+#info div {
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+}
+
+#info p {
+    margin: 0px;
+}
+
+#info a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 2.667vh
+}
+
+#info a:hover {
+    color: #8CFFD1;
+}
+
+/* Projectts */
+#projectsContainer {
+    background-color: #ffffff;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    padding: 1vh 1vw;
+    margin: 0vh 1vw;
+    margin-bottom: 15vh;
+}
+
+
+#projectsContent {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+#topProjects {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#topProjects div {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 1vh 1vw;
+    margin-top: 1vh;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    width: 8vw;
+    background-color: #F0F0F0;
+}
+
+#bottomProjects {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#bottomProjects div {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 1vh 1vw;
+    margin-top: 1vh;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    width: 8vw;
+    background-color: #F0F0F0;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 1vw;
+    background-color: #F8FAFD;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+}
+
+.proj a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.proj a:hover {
+    color: #8CFFD1;
+}
+
+
+
+
+
+
+
+
+
+/*PawPal Page */
+
+.projectHead {
+    display: flex;
+    justify-content: center;
+    background-color: #8CFFD1;
+    padding: 2vh 2vw;
+    width: 40vw;
+    margin: 15vh auto;
+}

@@ -13,14 +13,16 @@
 <body>
 <header id="mainContent">
     <nav class="topNav">
-        <a href="index.html">
-            <span class="material-symbols-outlined">home</span>
-            <p>Dillan. Y</p>
-        </a>
-
+        <div>
+            <a href="index.html">
+                <span class="material-symbols-outlined">home</span>
+                <p>Dillan. Y</p>
+            </a>
+        </div>
+        
         <div class="linkCont">
-            <a href="#aboutContemt">About Me</a>
-            <a href="#contactInfo">Contact</a>
+            <a href="#contentContainer">About Me</a>
+            <a href="#yearContainer">Contact</a>
             <a href="#projectsContainer">Projects</a>
         </div>
     </nav>
@@ -42,64 +44,135 @@
 
 <main id="contentContainer">
 
-    <section id="aboutContent">
-        <h2>About Me:</h2>
-        <p>I engage daily in a work-simulated environment to better myself when I eventually engage in the real thing. Many projects and daily assignments that require team collaboration and communication.</p>
-    
+    <section id="aboutContainer">
 
-    <img id="aboutsidePic" src="images/Index/aboutPicture.png" alt="Office picture">
+        <div id="aboutContent">
+            <h2>About Me:</h2>
+            <p id="aboutTxt">I engage daily in a work-simulated environment to better myself when I eventually engage in the real thing. Many projects and daily assignments that require team collaboration and communication.</p>
+        </div>
+
+        <div>
+            <img id="aboutsidePic" src="images/Index/aboutPicture.png" alt="Office picture">
+        </div>
+    
     </section>
-    <section id="5yearContent">
+    <section id="growthContainer">
+
+        <div id="growthContent">
+        <h2>Growth Story:</h2>
+
+            <p>At the start of my school year at The Center For Advanced Research and Technology (C.A.R.T), I had no idea what experiences awaited me. I had decided to take this class named Web Development and Design trying to see if this was something I wanted to pursue in the future. I had zero experience in both development and designing a website. 
+            I was very nervous as when we first started to “code” I had zero clue what I was doing and just following directions.
+            Many other students kinda already knew what to do without the teacher's help. At the time, I thought maybe this was a not so beginner friendly class and many others were able to catch on quickly.</p>
+            <p>After getting our first project, Bioshield, which is a fake insect repellant brand, we had to pose as the brand and advertise the insect repellants that we were “selling”. We had to use AI to create this website but I had zero idea how to use AI. 
+            I had many troubles trying to make this project due to code not working properly and having zero understanding of what needed to be fixed. I remember having frustrated nights staring at broken code not working with no idea how to fix it.</p>
+            <p>This was the easy part as the difficulty increased tremendously after this as we now needed to learn semantic HTML and CSS without relying on AI help or shortcuts like div tags. As time moved on, my technical knowledge grew as many different assignments helped me understand semantic HTML and CSS better. 
+            I was able to learn many different HTML tags such as section tags, footer tags, nav tags, and more. Using div tags was a shortcut, but now knowing more tags I am able to improve my HTML coding skills. This also includes my CSS as I was able to get a better understanding using CSS exercises teaching flexbox.</p>
+            <p>With more projects that were assigned throughout the year, my characteristics from habits of mind had improved. Habits of mind is a growth mindset lesson that was taught in C.A.R.T..The habits of mind lesson explained the importance of 7 characteristics which are initiate, investigate, collaborate, communicate, connect, reflect, and persist. However, from these 7 characteristics, the ones I had gained most experience in is persistence, communication, and collaboration.</p>
+            <p>I had spent days on a project trying to figure out how to implement a certain feature or debugging my code when it wasnt working. For example, I had a project called PawPal which was a mock up of a pet wellness tracker. There was a feature I wanted to add which was a toggle-able button. 
+            This was a disaster for me as I had to constantly learn the proper CSS values which took forever. At the end, I was able to get the buttons functional with proper help from websites, A.I., and my instructor. Days like this improved my persistence by constantly trying to find the solution to that problem.</p>
+            <p>I had many team projects or assignments which made me regularly engage with my peers. This constant engagement helped me leave my comfort zone to communicate with others. This also increased my collaboration with others as we had to engage assignments or problems as a team instead of individually. These collaboration activities had greatly improved my ability to work with others instead of regularly working alone.</p>
+            <p>With HTML and CSS out of the way, the final code language that I had to learn was JavaScript. This was in fact the hardest for me and is currently still the hardest language to learn. I was able to learn about arrays, functions, objects, strings, booleans, etc. 
+            However, JavaScript is still pretty difficult especially when your code breaks and you do not know where the problem is. This final project that I am working on right now is my reflection of my experiences, my progression, and the people I was able to meet throughout this year. These experiences that I had gained throughout this year is something that will stick with me for the rest of life as I continue to grow.</p>
+        </div>
+        </section>
+
+
+
+    <section id="yearContainer">
+        <div>
         <h2>5-Year Plan</h2>
         <p>My plan for the next 5 years is to get my bachelors degree as a math major. This process will take me about 4-5 years to complete, however throughout my years in school I would like to gain work experience with it. 
             I plan to gain whatever work experience that I can get so I can get a better grasp on what will be ahead of me.
             After getting my bachelors degree, I plan to start seeking jobs related to my career choice to officially start my life as an independent individual.</p>
-    </section>
+        </div>
+        </section>
 
-    <section id="contactInfo">
-        <h2>Coonnections</h2>
+    <section id="contactContainer">
+        <div>
+        <h2>Connections</h2>
 
-        <ul>
-            <li><p>DillanKYang@gmail.com</p></li>
+        <ul id="info">
+
+            <div>
+                <li><p>DillanKYang@gmail.com</p></li>
+            </div>
+            
+            <div>
             <li><a href="www.linkedin.com/in/dillan-yang">Linked In</a></li>
-            <li><a href="https://canva.link/ic9a1tkwfivu10w">Resume</a></li>
+            </div>
+            
+            <div>
+            <li><a href="resume.html">Resume</a></li>
+            </div>
+            
+            <div>
             <li><a href="https://github.com/TubaFish">Github</a></li>
+            </div>
+        
+        
         </ul>
+        </div>
     </section>
 
     <section id="projectsContainer">
         <h2>Projects</h2>
 
         <div id="projectsContent">
-            <article id="pawProj">
-                <h3>PawPal Project</h3>
-                <img src="images/Index/pawIndex.png" alt="Project Picture">
-                <a href="pawpal.html">Check It Out</a>
-            </article>
 
-            <article id="bioProj">
-                <h3>Bioshield Project</h3>
-                <img src="images/Index/bioIndex.png" alt="Project Picture">
-                <a href="bio.html">Check It Out</a>
-            </article>
+            <div id="topProjects">
+                <article class="proj" id="pawProj">
+                    <h3>PawPal Project</h3>
+                    <img src="images/Index/pawIndex.png" alt="Project Picture">
+                    
+                    <div>                   
+                    <a href="pawpal.html">Check It Out</a>
+                    </div>
 
-            <article id="fczProj">
-                <h3>FCZ Project</h3>
-                <img src="images/Index/FCZIndex.png" alt="Project Picture">
-                <a href="FCZ.html">Check It Out</a>
-            </article>
+                </article>
 
-            <article id="argueProj">
-                <h3>Argumenative Writing</h3>
-                <img src="images/Index/arguIndex.png" alt="Project Picture">
-                <a href="argument.html">Check It Out</a>
-            </article>
+                <article class="proj" id="bioProj">
+                    <h3>Bioshield Project</h3>
+                    <img src="images/Index/bioIndex.png" alt="Project Picture">
+                    
+                    <div>                   
+                    <a href="bio.html">Check It Out</a>
+                    </div>
 
-            <article id="researchProj">
-                <h3>Research Paper</h3>
-                <img src="images/Index/researchIndex.png" alt="Project Picture">
-                <a href="research.html">Check It Out</a>
-            </article>
+                </article>
+
+                <article class="proj" id="fczProj">
+                    <h3>FCZ Project</h3>
+                    <img src="images/Index/FCZIndex.png" alt="Project Picture">
+                    
+                    <div>                   
+                    <a href="FCZ.html">Check It Out</a>
+                    </div>
+
+                </article>
+            </div>
+
+            <div id="bottomProjects">
+                <article class="proj" id="argueProj">
+                    <h3>Argumenative Writing</h3>
+                    <img src="images/Index/arguIndex.png" alt="Project Picture">
+                    
+                    <div>                   
+                    <a href="argument.html">Check It Out</a>
+                    </div>
+
+                </article>
+
+                <article class="proj" id="researchProj">
+                    <h3>Research Paper</h3>
+                    <img src="images/Index/researchIndex.png" alt="Project Picture">
+                    
+                    <div>                   
+                    <a href="research.html">Check It Out</a>
+                    </div>
+
+                </article>
+            </div>
         </div>
     </section>
 </main>

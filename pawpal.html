@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body class="allContainer">
 <header>
     <nav class="topNav">
         <div>
@@ -41,31 +41,26 @@
         <div class="pictures">
             <div class="imgTop">
                 <img src="images/Paw/paw1.png" alt="pawimg1">
-
                 <img src="images/Paw/paw2.png" alt="pawimg2">
             </div>
 
-            <div class="imgLow">
+            <div class="imgBottom">
                 <img src="images/Paw/paw3.png" alt="pawimg3">
-
                 <img src="images/Paw/paw4.png" alt="pawimg4">
             </div>
-
         </div>
     </section>
 
     <section class="projOverview">
-        <div>
-            <h2>PawPal Overview:</h2>
-            <p>PawPal is a project that I and a partner were tasked to create as a mock website for a pet wellness tracker. We were tasked to create this project using our knowledge of HTML, CSS, and media queries; with the addition of JavaScript with (at the time) AI support.</p>
-        </div>
+        <h2>PawPal Overview:</h2>
+        <p>PawPal is a project that I and a partner were tasked to create as a mock website for a pet wellness tracker. We were tasked to create this project using our knowledge of HTML, CSS, and media queries; with the addition of JavaScript with (at the time) AI support.</p>
     </section>
 
     <section class="techuseContainer">
         <div class="techUsed">
             <h2>Technology Used:</h2>
 
-            <ul>
+            <ul class="techInfo">
                 <li>Some technological tools used for this project were A.I. platforms such as Chatgpt, Google Gemini, and Claude.</li>
                 <li>Not just A.I. was used, but websites like w3Schools, geeksforgeeks, and MDN were used as well to see human examples and explanations.</li>
                 <li>We also used Figma, which is an application that allows us to create our wireframes as well as our Lo-fi and Hi-fi designs.</li>
@@ -86,7 +81,7 @@
         <div class="concpLearned">
             <h2>Concepts Learned:</h2>
 
-            <ul>
+            <ul class="concInfo">
                 <li>From this project I learned  how to create toggle-able buttons using relative and absolute positions in CSS</li>
                 <li>Not only that but I learned to make the CSS more responsive for media queries by using view width and view height to style pages, padding, etc. This encouraged me to sway more to responsive units instead of the generic px unit.</li>
             </ul>
@@ -98,7 +93,7 @@
         <div class="chalandSol">
             <h2>Challenges & Solutions:</h2>
 
-        <ul>
+        <ul class="csInfo">
             <li>A problem that I had faced when engaging in this project were my styling units. I had used many pixel units instead of units that would be responsive to media queries. When my partner told me this, the solution I had was to look back at my code and adjust the fitting sizes and other code that relied on the old pixel values.</li>
             <li>Another problem that I had was the alignment of our settings page. The alignment was not center justified like how we wanted it and honestly I could not figure it out with my own eyes. The solution to fix this problem was to ask for help from peers, my instructor, and A.I.</li>
             <li>Additionally, I had another problem which was to make the sign in and sign out pages look identical to each other. To solve this problem, I had to constantly switch back and forth between pages to make sure both looked identical.</li>
@@ -109,13 +104,14 @@
             <img src="images/Misc/chal-img.png" alt="chal&sol-img">
         </div>
     </section>
-
-    <section class="habitmindCont">
+        <!--Note to self, changed this because of missing habit of mind-->
+    <section id="pawHabits">
         <h2>Habits of the mind in action</h2>
 
-        <ul>
-            <li><strong>Persistence:</strong>When my CSS animations (using @keyframes) were not firing correctly across different browsers, I spent three days debugging the rendering engine quirks rather than simplifying the design.</li>
-            <li><strong>Communication:</strong>I sought feedback from peers and my instructor during class to ensure the navigation's "drop-down" functionality was intuitive for first-time visitors.</li>
+        <ul class="habitInfo">
+            <li><strong>Persistence:</strong> When the alignment issue happened I had spent about 2 days trying to understand what went wrong and how to fix it.</li>
+            <li><strong>Communication:</strong> Talking with my partner about the assignment, along with talking to my instructor about problems that I was unable to fix helped me improve engagement with others.</li>
+            <li><strong>Investigative:</strong> I looked for solutions when a roadblock had appeared, and looked at how to implement a feature.</li>
         </ul>
     </section>
 </main>

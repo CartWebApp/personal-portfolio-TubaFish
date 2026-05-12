@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home,keyboard_arrow_down"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=call,home,keyboard_arrow_down,language,location_on,mail"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resumeStyle.css">
     <title>Portfolio</title>
 </head>
 <body>
-<header>
     <nav class="topNav">
         <div>
             <a href="index.html">
@@ -19,12 +18,103 @@
                 <p>Dillan. Y</p>
             </a>
         </div>
-        
-        <div class="linkCont">
-            <a href="index.html#contentContainer">About Me</a>
-            <a href="index.html#yearContainer">Contact</a>
-            <a href="index.html#projectsContainer">Projects</a>
-        </div>
     </nav>
+<header id="topHead">
+    <img id="portrait" src="images/Index/SelfPicture.png" alt="portrait-of-Dillan-Yang">
+    <h1>Dillan Yang</h1>
+</header>
+<main id="allContainer">
+    <section id="leftSide">
+        <section id="contactMe">
+            <div>
+                <h3>CONTACT</h3>
+            </div>
+            <ul id="contactInfo">
+                <li><span class="material-symbols-outlined">call</span>(559)-878-9264</li>
+                <li><span class="material-symbols-outlined">mail</span>DillanKyang2080@gmail.com</li>
+                <li><span class="material-symbols-outlined">language</span>www.linkedin.com/in/dillan-yang</li>
+                <li><span class="material-symbols-outlined">location_on</span>Fresno, CA 93737</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <div>
+                <h3>SKILLS</h3>
+            </div>
+
+            <ul id="skillInfo">
+                <li>Web Development</li>
+                <li>Web Design</li>
+                <li>Responsive Web Designing</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <div>
+                <h3>PROJECTS</h3>
+            </div>
+            <section class="proj">
+                <div>
+                    <h3>Enrichment Tracking App - C.A.R.T.</h3>
+                </div>
+                <ul id="enrichProj">
+                    <li>Collaborated in a 5-member team to design an enrichment tracking app for the Fresno Chaffee Zoo</li>
+                    <li>Identified usability issues in the existing system and proposed improved workflows</li>
+                    <li>Created low- and high-fidelity prototypes for assigned user flows</li>
+                    <li>ntegrated requirements and feedback from Zoo Care Specialists and Curators</li>
+                </ul>
+            </section>
+
+            <section class="proj">
+                <div>
+                    <h3>Pawpal Pet Wellness Tracker - C.A.R.T.</h3>
+                </div>
+                <ul id="pawProj">
+                    <li>Collaborated with a partner to develop a fictional welfare tracking application, Pawpal</li>
+                    <li>Built multiple pages and core features using HTML for structure, CSS for styling, and JavaScript for functionality</li>
+                    <li>Modeled functionality after real-world tracking applications</li>
+                    <li>Applied creative design principles and instructor guidance throughout development</li>
+                </ul>
+            </section>
+        </section>  
+    </section>
+
+    <section id="right">
+        <section id="summary">
+            <div>
+                <h3>PROFESSIONAL SUMMARY</h3>
+            </div>
+            <p>Motivated high school senior interested in technological fields such as web development and design. Searching for jobs that will allow me to hone my technological skills and further improve myself in a professional environment.</p>
+        </section>
+
+        <section id="eduSkills">
+            <div>
+                <h3>EDUCATION AND SKILLS</h3>
+            </div>
+            <section class="edu">
+                <div>
+                    <h3>THE CENTER FOR ADVANCED RESEARCH AND TECHNOLOGY (C.A.R.T.)          (2025-2026)</h3>
+                </div>
+                <ul id="cart">
+                    <li>Worked in a real-world,<strong> deadline-driven environment</strong>with team projects and presentations</li>
+                    <li><strong>Collaborated</strong> effectively with peers to ensure deadlines were consistently met</li>
+                    <li><strong>Adapted to changes</strong> such as team member absences to keep projects on track</li>
+                    <li><strong>Communicated</strong> updates clearly to maintain team alignment and accountability</li>
+                </ul>
+            </section>
+
+            <section class="edu">
+                <div>
+                    <h3>CLOVIS EAST HIGH SCHOOL          (2025-2026)</h3>
+                </div>
+                <ul id="east">
+                    <li><strong>Communicated effectively</strong> with peers during team-based class projects</li>
+                    <li>Contributed to timely completion of assignments through <strong>collaboration and accountability</strong></li>
+                    <li>Maintained focus on completing work properly and efficiently to <strong>meet deadlines</strong></li>
+                </ul>
+            </section>
+        </section>
+    </section>
+</main>
 </body>
 </html>

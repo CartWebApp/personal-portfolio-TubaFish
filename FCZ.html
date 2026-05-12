@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body class="allContainer">
 <header>
     <nav class="topNav">
         <div>
@@ -39,11 +39,15 @@
         </div>
 
         <div class="pictures">
-            <img src="images/FCZ/FCZ1.png" alt="pawimg1">
-            <img src="images/FCZ/FCZ2.png" alt="pawimg2">
-            <img src="images/FCZ/FCZ3.png" alt="pawimg3">
-            <img src="images/FCZ/FCZ4.png" alt="pawimg4">
-        </div>
+            <div class="imgTop">
+                <img src="images/FCZ/FCZ1.png" alt="pawimg1">
+                <img src="images/FCZ/FCZ2.png" alt="pawimg2">
+            </div>
+
+            <div class="imgBottom">
+                <img src="images/FCZ/FCZ3.png" alt="pawimg3">
+                <img src="images/FCZ/FCZ4.png" alt="pawimg4">
+            </div>
     </section>
 
     <section class="projOverview">
@@ -52,10 +56,10 @@
     </section>
 
     <section class="techuseContainer">
-        <div class="techUsed">
+        <div id="fcztechUsed">
             <h2>Technology Used:</h2>
 
-            <ul>
+            <ul class="techInfo">
                 <li>We had used an application called Figma in which it allowed us to create digital lo-fi and hi-fi designs that would have been the blueprint of the actual website/app.</li>
                 <li>We also used Figjam in where it held our brainstorming ideals, our information that we got from interviewing the Zoo Care Specialists, and our flow charts.</li>
             </ul>
@@ -75,7 +79,7 @@
         <div class="concpLearned">
             <h2>Concepts Learned:</h2>
 
-            <ul>
+            <ul class="concInfo">
                 <li>I had learned how to better use and design low-fi and hi-fi designs in figma such as dropdowns, interactive input fields, and interactive checkboxes.</li>
                 <li>I had also learned how to gather better information from other people by coming up with questions and understanding how they thought.</li>
             </ul>
@@ -84,10 +88,10 @@
 
     <section class="ChalSolContainer">
         
-        <div class="chalandSol">
+        <div id="fczCs">
             <h2>Challenges & Solutions:</h2>
 
-        <ul>
+        <ul class="csInfo">
             <li>A problem that I had while working on this problem were the communication issues. I would communicate with my group members but some would brush off my comments or concerns I had with the speed or quality of our work. To solve this problem I had discussed my problem with them and we all seemed to have a better understanding of each other after that.</li>
             <li>Another problem that I had while working was the uneven workload. Another member and I had more on our plates than the rest due to them not being productive members. To solve this problem, my peer and I had to urge and assign the members who were unproductive more tasks to balance the work load.</li>
             <li>Lastly, another problem I had faced was the roadblocks of members who would be sick or had a busy schedule. This was quite the challenge as the work would be unbalanced. To solve this problem, the member who was gone had to do some work on it at home. If not possible we all had to divide that members work amongst ourselves.</li>
@@ -99,12 +103,12 @@
         </div>
     </section>
 
-    <section class="habitmindCont">
+    <section id="fczHabits">
         <h2>Habits of the mind in action</h2>
 
-        <ul>
-            <li><strong>Communication:</strong>We had a lot of communication and discussion about the assignment. Talking and communicating was a key part of this assignment which ended up being okay.</li>
-            <li><strong>Collaboration:</strong>Team effort and assisting each other when a part of the assignment needed the entire group.</li>
+        <ul class="habitInfo">
+            <li><strong>Communication:</strong> We had a lot of communication and discussion about the assignment. Talking and communicating was a key part of this assignment which ended up being okay.</li>
+            <li><strong>Collaboration:</strong> Team effort and assisting each other when a part of the assignment needed the entire group.</li>
         </ul>
     </section>
 </main>

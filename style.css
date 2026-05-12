@@ -1,6 +1,5 @@
-
 * {
-    font-family: Open sans;
+    font-family: Open sans, arial;
 }
 body {
     margin: 0;
@@ -8,11 +7,17 @@ body {
 }
 
 h2 {
+    padding: 2vh 0vw;
+    margin: 0;
     font-size: 3.889vh;
 }
 
 p {
     font-size: 2.667vh;
+}
+
+ul {
+    padding-left: 0;
 }
 
 /* Nav */
@@ -27,6 +32,10 @@ p {
     align-items: center;
     text-decoration: none;
     color: #000000;
+}
+
+.topNav a:hover {
+    color: #02965b;
 }
  
 .topNav p {
@@ -117,6 +126,7 @@ p {
  #aboutContent {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #ffffff;
     border: #B4B4B4 1px solid;
     border-radius: 10px;
@@ -125,11 +135,6 @@ p {
     width: 29.167vw;
     height: 43.333vh;
  }
-
- #aboutsidePic {
-    width: 38.542vw;
- }
-
 
  /* Growth Story */
  #growthContainer {
@@ -174,7 +179,8 @@ p {
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    gap: 2.5vw;
+    gap: 2vw;
+    margin-left: 2vw;
 }
 
 #info div {
@@ -194,10 +200,10 @@ p {
 }
 
 #info a:hover {
-    color: #8CFFD1;
+    color: #02965b;
 }
 
-/* Projectts */
+/* Projects */
 #projectsContainer {
     background-color: #ffffff;
     border: #B4B4B4 1px solid;
@@ -260,6 +266,11 @@ p {
     border-radius: 10px;
 }
 
+.proj {
+    display: flex;
+    align-items: center;
+}
+
 .proj a {
     display: flex;
     justify-content: center;
@@ -268,24 +279,455 @@ p {
 }
 
 .proj a:hover {
-    color: #8CFFD1;
+    color: #02965b;
 }
 
 
 
 
 
-
-
-
-
 /*PawPal Page */
+/*Header and title*/
+
+.allContainer {
+    background-image: radial-gradient(circle at center left, #8CFFD1 ,#ffffff);
+}
 
 .projectHead {
     display: flex;
     justify-content: center;
-    background-color: #8CFFD1;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
     padding: 2vh 2vw;
     width: 40vw;
     margin: 15vh auto;
+}
+
+.picTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1vw;
+    width: 20vw;
+    height: 10vh;
+    margin-bottom: 8vh;
+    margin-left: 5vw;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+}
+
+/* Pictures*/
+.pictureContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.imgTop {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.imgBottom {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+/* Project Overview*/
+.projOverview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 1vw;
+    height: 25vh;
+    width: 68.17vw;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    margin: 15vh auto;
+}
+
+.projOverview h2 {
+    margin: 0;
+    padding-top: 2vh;
+}  
+ 
+/*Technology Used*/
+.techuseContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+ }
+
+.techUsed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    width: 38.698vw;
+    height: 41.3vh;
+ }
+
+.techInfo {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2vh;
+    font-size: 2.667vh;
+    margin: 0;
+}
+
+
+/*Concepts Learned */
+
+.conceptsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    margin: 15vh 0vw;
+}
+
+.concpLearned {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    width: 38.698vw;
+    height: 35vh;
+}
+
+.concInfo {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2vh;
+    font-size: 2.667vh;
+    margin: 0;
+}
+
+/* Challenges and Solutions*/
+.ChalSolContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+
+.chalandSol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 2vh 1vw;
+    width: 38.698vw;
+    height: 64vh;
+}
+
+
+.csInfo {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2vh;
+    font-size: 2.667vh;
+    margin: 0;
+}
+
+/* Habits of M<ind*/
+.habitmindCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 1vw;
+    height: 25vh;
+    width: 75vw;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    margin: 15vh auto;
+}
+
+#pawHabits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 1vw;
+    height: 32vh;
+    width: 75vw;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    margin: 15vh auto;
+}
+
+.habitInfo {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2vh;
+    font-size: 2.667vh;
+    margin: 0;
+}
+
+
+/*BioShield syleing*/
+
+/* Tech Bio Use*/
+#biotechUse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    width: 38.698vw;
+    height: 30vh;
+}
+
+/*Bio Concepts*/
+#bioConcepts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    width: 38.698vw;
+    height: 45vh;
+}
+
+/* Challenges Solutions Bio*/
+#biocsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+
+#bioCs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 2vh 1vw;
+    width: 38.698vw;
+    height: 75vh;
+}
+
+/* Habit Mind Bio*/
+#bioHabit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 1vw;
+    height: 25vh;
+    width: 75vw;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    margin: 15vh auto;
+}
+
+/* FCZ Styling*/
+
+/* Tech Used FCZ*/
+#fcztechUsed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    width: 38.698vw;
+    height: 35.5vh;
+}
+
+
+/*Chal and Sol FCZ*/
+#fczCs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 2vh 1vw;
+    width: 38.698vw;
+    height: 75vh;
+}
+
+/*Habits FCZ*/
+#fczHabits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 1vw;
+    height: 22vh;
+    width: 75vw;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    margin: 15vh auto;
+}
+
+/* Argumenative Paper*/
+#argutechUsed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    width: 38.698vw;
+    height: 28vh;
+}
+
+#arguconcpLearn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    width: 38.698vw;
+    height: 31.5vh;   
+}
+
+#arguCs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 2vh 1vw;
+    width: 38.698vw;
+    height: 75vh;  
+}
+
+#arguHabit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 1vw;
+    height: 26vh;
+    width: 75vw;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    margin: 15vh auto;  
+}
+
+
+/*Research Paper*/
+#enrichprojOv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 1vw;
+    height: 20vh;
+    width: 68.17vw;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    margin: 15vh auto;
+}
+
+#restechUsed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    width: 38.698vw;
+    height: 37.5vh;
+}
+
+#resconcpLearn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    width: 38.698vw;
+    height: 28vh;
+}
+
+#resCs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    padding: 2vh 1vw;
+    width: 38.698vw;
+    height: 68vh;
+}
+
+#resHabit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 1vw;
+    height: 22vh;
+    width: 75vw;
+    background-color: #ffffff;
+    box-shadow: 0px 1.5px 5px -1px #000000;
+    border: #B4B4B4 1px solid;
+    border-radius: 10px;
+    margin: 15vh auto; 
 }

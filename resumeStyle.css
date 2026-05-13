@@ -10,7 +10,9 @@ body {
 h2 {
     padding: 2vh 0vw;
     margin: 0;
-    font-size: 3.889vh;
+    font-size: 3vh;
+    color: #0b435a;
+    text-decoration: underline;
 }
 
 h1 {
@@ -18,11 +20,6 @@ h1 {
     font-size: 5vh;
 }
 
-h3 {
-    font-size: 3vh;
-    color: #0b435a;
-    text-decoration: underline;
-}
 
 ul {
     color: #0b435a;
